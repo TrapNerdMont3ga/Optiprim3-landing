@@ -10,15 +10,15 @@ const Hero = () => {
     return (
         <section id="hero">
             <div>
-                <h1>MacBook Pro</h1>
-                <img src="/title.png" alt="MacBook Title" />
+                <h1>Optiprim3</h1>
+                <img src="/title.png" alt="Optiprim3" />
             </div>
 
             <video ref={videoRef} src="/videos/hero.mp4" autoPlay muted playsInline />
 
-            <button>Buy</button>
+            <button>Get Started</button>
 
-            <p>From $1599 or $133/mo for 12 months</p>
+            <p>Technology-Enabled Logistics. Built by an Operator.</p>
         </section>
     )
 }

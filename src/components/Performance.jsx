@@ -66,7 +66,7 @@ const Performance = () => {
 
     return (
         <section id="performance" ref={sectionRef}>
-            <h2>Next-level graphics performance. Game on.</h2>
+            <h2>Next-level logistics performance. Always moving.</h2>
 
              <div className="wrapper">
                 {performanceImages.map((item, index) => (
@@ -81,16 +81,16 @@ const Performance = () => {
 
             <div className="content">
                 <p>
-                    Run graphics-intensive workflows with a responsiveness that keeps up
-                    with your imagination. The M4 family of chips features a GPU with a
-                    second-generation hardware-accelerated ray tracing engine that renders
-                    images faster, so{" "}
+                    Run your operations with a system that keeps up with every load,
+                    every route, every mile. Optiprim3 combines AI-powered dispatch with
+                    cloud infrastructure to maximize efficiency at every layer — so{" "}
                     <span className="text-white">
-            gaming feels more immersive and realistic than ever.
-          </span>{" "}
-                    And Dynamic Caching optimizes fast on-chip memory to dramatically
-                    increase average GPU utilization — driving a huge performance boost
-                    for the most demanding pro apps and games.
+                        your freight moves faster, smarter, and with full visibility
+                        from pickup to delivery.
+                    </span>{" "}
+                    Real-time data and intelligent routing optimize every decision,
+                    reducing deadhead miles and increasing revenue per mile — giving
+                    you the edge that traditional carriers simply can't match.
                 </p>
             </div>
         </section>

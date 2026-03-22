@@ -21,34 +21,34 @@ const Highlights = () => {
 
     return (
         <section id="highlights">
-            <h2>There’s never been a better time to upgrade.</h2>
-            <h3>Here’s what you get with the new MacBook Pro.</h3>
+            <h2>There's never been a better time to move smarter.</h2>
+            <h3>Here's what you get with Optiprim3.</h3>
 
             <div className="masonry">
                 <div className="left-column">
                     <div>
                         <img src="/laptop.png" alt="Laptop" />
-                        <p>Fly through demanding tasks up to 9.8x faster.</p>
+                        <p>Operate up to 9.8x more efficiently with AI-powered dispatch.</p>
                     </div>
                     <div>
                         <img src="/sun.png" alt="Sun" />
-                        <p>A stunning <br />
-                            Liquid Retina XDR <br/>
-                            display.</p>
+                        <p>Full visibility <br />
+                            Real-time tracking <br/>
+                            on every load.</p>
                     </div>
                 </div>
                 <div className="right-column">
-                    <div className="apple-gradient">
+                    <div className="optiprime-gradient">
                         <img src="/ai.png" alt="AI" />
                         <p>Built for <br />
-                            <span>Apple Intelligence.</span></p>
+                            <span>Intelligent Logistics.</span></p>
                     </div>
                     <div>
-                        <img src="/battery.png" alt="Battery" />
+                        <img src="/battery.png" alt="uptime" />
                         <p>Up to
-                            <span className="green-gradient">{' '}14 more hours{' '}</span>
-                            battery life.
-                            <span className="text-dark-100">{' '}(Up to 24 hours total.)
+                            <span className="blue-gradient">{' '}99.9% uptime{' '}</span>
+                           on cloud operations.
+                            <span className="text-dark-100">{' '}(Always on. Always moving.)
                             </span></p>
                     </div>
                 </div>

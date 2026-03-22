@@ -4,7 +4,7 @@ const NavBar = () => {
     return (
         <header>
             <nav>
-                <img  src="/logo.svg" alt="Apple logo" />
+                <img  src="/logo1.svg" alt="Optiprim3" />
 
                 <ul>
                     {navLinks.map(({ label }) => (

@@ -1,10 +1,9 @@
 const navLinks = [
-    { label: "Store" },
-    { label: "Mac" },
-    { label: "iPhone" },
-    { label: "Watch" },
-    { label: "Vision" },
-    { label: "AirPods" },
+    { label: "About" },
+    { label: "Services" },
+    { label: "Advantage" },
+    { label: "Operations" },
+    { label: "Contact" },
 ];
 
 const noChangeParts = [
@@ -37,77 +36,49 @@ const performanceImages = [
 ];
 
 const performanceImgPositions = [
-    {
-        id: "p1",
-        left: 5,
-        bottom: 65,
-    },
-    {
-        id: "p2",
-        right: 10,
-        bottom: 60,
-    },
-    {
-        id: "p3",
-        right: -5,
-        bottom: 45,
-    },
-    {
-        id: "p4",
-        right: -10,
-        bottom: 0,
-    },
-    {
-        id: "p5",
-        left: 20,
-        bottom: 50,
-    },
-    {
-        id: "p6",
-        left: 2,
-        bottom: 30,
-    },
-    {
-        id: "p7",
-        left: -5,
-        bottom: 0,
-    },
+    { id: "p1", left: 5, bottom: 65 },
+    { id: "p2", right: 10, bottom: 60 },
+    { id: "p3", right: -5, bottom: 45 },
+    { id: "p4", right: -10, bottom: 0 },
+    { id: "p5", left: 20, bottom: 50 },
+    { id: "p6", left: 2, bottom: 30 },
+    { id: "p7", left: -5, bottom: 0 },
 ];
 
 const features = [
     {
         id: 1,
         icon: "/feature-icon1.svg",
-        highlight: "Email AI.",
-        text: "Summarize and draft replies to emails instantly, so you stay on top of your inbox.",
+        highlight: "AI Dispatch.",
+        text: "Intelligent load matching and route optimization that keeps your wheels turning and your revenue climbing.",
         styles: "left-5 md:left-20 top-[20%] opacity-0 translate-y-5",
     },
     {
         id: 2,
         icon: "/feature-icon2.svg",
-        highlight: "Image AI.",
-        text: "Generate or edit images with ease. Just type what you imagine, and let AI bring it to life.",
+        highlight: "Cloud Operations.",
+        text: "Every document, every load, every mile — managed from the cloud so your business runs from anywhere.",
         styles: "right-5 md:right-20 top-[30%] opacity-0 translate-y-5",
     },
     {
         id: 3,
         icon: "/feature-icon3.svg",
-        highlight: "Summarize AI.",
-        text: "Turn long articles, reports, or notes into clear, bite-sized summaries in seconds.",
+        highlight: "Cyber Secured.",
+        text: "Your data, your authority, your assets — protected by enterprise-grade cybersecurity built into every layer.",
         styles: "left-5 md:left-20 top-[50%] opacity-0 translate-y-5",
     },
     {
         id: 4,
         icon: "/feature-icon4.svg",
-        highlight: "AirDrop.",
-        text: "Wirelessly share photos, large files, and more between your iPhone, your Mac, & other devices.",
+        highlight: "Real-Time Visibility.",
+        text: "Live tracking, instant updates, and full transparency for shippers and partners from pickup to delivery.",
         styles: "right-5 md:right-20 top-[70%] opacity-0 translate-y-5",
     },
     {
         id: 5,
         icon: "/feature-icon5.svg",
-        highlight: "Writing Tool.",
-        text: "Write smarter and faster, whether it’s blogs, essays, or captions, AI helps polish your words.",
+        highlight: "Owner-Operated.",
+        text: "No middlemen. No platform dependency. Direct authority, direct relationships, maximum margin.",
         styles: "left-5 md:left-20 top-[90%] opacity-0 translate-y-5",
     },
 ];
@@ -123,7 +94,7 @@ const featureSequence = [
 const footerLinks = [
     { label: "Privacy Policy", link: "#" },
     { label: "Terms of Use", link: "#" },
-    { label: "Sales Policy", link: "#" },
+    { label: "Carrier Agreement", link: "#" },
     { label: "Legal", link: "#" },
     { label: "Site Map", link: "#" },
 ];
