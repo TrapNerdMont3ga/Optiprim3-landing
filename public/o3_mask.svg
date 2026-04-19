@@ -1,0 +1,25 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- 
+      This mask defines a solid white area (which will show as full opacity black) 
+      and a black text area (which will show as a transparent cutout).
+    -->
+    <mask id="o3-hole">
+      <rect width="100%" height="100%" fill="white"/>
+      <text 
+        x="50%" 
+        y="50%" 
+        dominant-baseline="central" 
+        text-anchor="middle" 
+        font-family="SF Pro, -apple-system, system-ui, sans-serif" 
+        font-weight="900" 
+        font-size="480" 
+        letter-spacing="-10"
+        fill="black"
+      ><tspan>O</tspan><tspan font-size="320" dy="120">3</tspan></text>
+    </mask>
+  </defs>
+  
+  <!-- This rectangle covers the canvas in black, except where the mask has 'black' content (the text) -->
+  <rect width="100%" height="100%" fill="black" mask="url(#o3-hole)"/>
+</svg>

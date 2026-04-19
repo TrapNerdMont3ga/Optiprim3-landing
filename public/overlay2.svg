@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1920 1080" height="1080" width="1920">
+  
+  <rect fill="#000000" height="1080" width="1920"></rect>
+
+  
+  <defs>
+    <mask id="o3-mask">
+      
+      <rect fill="#FFFFFF" height="1080" width="1920"></rect>
+
+      
+      <text paint-order="stroke fill" letter-spacing="-25" fill="#000000" font-weight="900" font-size="620" font-family="Arial Black, Impact, sans-serif" y="740" x="620">O</text>
+
+      
+      <text paint-order="stroke fill" fill="#000000" font-weight="700" font-size="280" font-family="Arial Black, Impact, sans-serif" y="765" x="1080">₃</text>
+    </mask>
+  </defs>
+
+  
+  <rect mask="url(#o3-mask)" fill="#000000" height="1080" width="1920"></rect>
+</svg>
