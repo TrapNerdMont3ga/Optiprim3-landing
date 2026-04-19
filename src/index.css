@@ -294,7 +294,27 @@ body {
       }
     }
   }
-
+  .neon-title {
+    font-family: -apple-system, "SF Pro Display", "Helvetica Neue", sans-serif;
+    font-size: clamp(28px, 5.5vw, 62px);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    background: linear-gradient(90deg,
+        #00c8ff 0%,
+        #a78bfa 30%,
+        #f472b6 52%,
+        #ef4444 68%,
+        #f97316 85%,
+        #fb923c 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    filter: drop-shadow(0 0 18px rgba(0,200,255,0.35)) 
+            drop-shadow(0 0 40px rgba(167,139,250,0.25)) 
+            drop-shadow(0 0 60px rgba(239,68,68,0.2));
+}
   #highlights {
     @apply container mx-auto lg:py-40 max-lg:px-5;
 
